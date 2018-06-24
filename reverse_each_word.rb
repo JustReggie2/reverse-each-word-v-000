@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
   words.each do |word|
     new_sentence << word.reverse
   end
-  puts new_sentence
+  new_sentence
 end
